@@ -28,7 +28,9 @@ KidsArea brings together three core modules to foster creativity and discovery:
 
 #### 📷 Camera & Object Recognition
 * **Live Camera Feed**: High-performance preview using `AVFoundation` and `AVCaptureVideoPreviewLayer`.
-* **CoreML Detection**: Real-time object classification with a pre-trained model (e.g., MobileNetV2).
+* **CoreML Detection**: Real-time object classification using:
+  * **[FastViTT8F16](https://developer.apple.com/machine-learning/models/)** on iOS 17.0 and above for improved accuracy and performance.
+  * **[MobileNetV2FP16](https://developer.apple.com/machine-learning/models/)** on iOS 15.0–16.x devices for broad compatibility.
 * **Wiki Integration**: Upon detection, fetch a summary from Wikipedia's REST API and display alongside the camera view.
 
 -------------
