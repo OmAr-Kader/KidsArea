@@ -20,5 +20,6 @@ Screenshot
 
 ## Screen Records
 
-https://github.com/user-attachments/assets/55ce2698-81ab-4de8-99b7-aff0fb0a5516
+
+https://github.com/user-attachments/assets/2093ebe7-f208-4339-a45f-bd14c012b592
 
