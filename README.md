@@ -1,4 +1,4 @@
-# Kids Area MVP
+# Kids Area(Offline-MVP)
 
 Screenshot
 -------------
