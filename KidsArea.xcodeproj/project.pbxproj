@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3E932B2E083E6D00C96746 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3E932A2E083E6D00C96746 /* 4.png */; };
 		DC7954652E078B8A00086270 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DC7954642E078B8A00086270 /* Kingfisher */; };
 		DC7954682E078B9E00086270 /* ShimmerEffect in Frameworks */ = {isa = PBXBuildFile; productRef = DC7954672E078B9E00086270 /* ShimmerEffect */; };
 		DC7954742E078BC100086270 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DC79546B2E078BC100086270 /* LICENSE */; };
 		DC7954752E078BC100086270 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DC79546C2E078BC100086270 /* README.md */; };
-		DC7954762E078BC100086270 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7954722E078BC100086270 /* 5.png */; };
+		DC7954762E078BC100086270 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7954722E078BC100086270 /* 6.png */; };
 		DC7954772E078BC100086270 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79546F2E078BC100086270 /* 2.png */; };
 		DC7954782E078BC100086270 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DC79546D2E078BC100086270 /* .gitignore */; };
 		DC7954792E078BC100086270 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7954702E078BC100086270 /* 3.png */; };
-		DC79547A2E078BC100086270 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7954712E078BC100086270 /* 4.png */; };
+		DC79547A2E078BC100086270 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7954712E078BC100086270 /* 5.png */; };
 		DC79547B2E078BC100086270 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79546E2E078BC100086270 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC3E932A2E083E6D00C96746 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		DC7954552E078B4F00086270 /* KidsArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC79546B2E078BC100086270 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DC79546C2E078BC100086270 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -27,8 +29,8 @@
 		DC79546E2E078BC100086270 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		DC79546F2E078BC100086270 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		DC7954702E078BC100086270 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		DC7954712E078BC100086270 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		DC7954722E078BC100086270 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DC7954712E078BC100086270 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DC7954722E078BC100086270 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -91,8 +93,9 @@
 				DC79546E2E078BC100086270 /* 1.png */,
 				DC79546F2E078BC100086270 /* 2.png */,
 				DC7954702E078BC100086270 /* 3.png */,
-				DC7954712E078BC100086270 /* 4.png */,
-				DC7954722E078BC100086270 /* 5.png */,
+				DC3E932A2E083E6D00C96746 /* 4.png */,
+				DC7954712E078BC100086270 /* 5.png */,
+				DC7954722E078BC100086270 /* 6.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -167,13 +170,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3E932B2E083E6D00C96746 /* 4.png in Resources */,
 				DC7954742E078BC100086270 /* LICENSE in Resources */,
 				DC7954752E078BC100086270 /* README.md in Resources */,
-				DC7954762E078BC100086270 /* 5.png in Resources */,
+				DC7954762E078BC100086270 /* 6.png in Resources */,
 				DC7954772E078BC100086270 /* 2.png in Resources */,
 				DC7954782E078BC100086270 /* .gitignore in Resources */,
 				DC7954792E078BC100086270 /* 3.png in Resources */,
-				DC79547A2E078BC100086270 /* 4.png in Resources */,
+				DC79547A2E078BC100086270 /* 5.png in Resources */,
 				DC79547B2E078BC100086270 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

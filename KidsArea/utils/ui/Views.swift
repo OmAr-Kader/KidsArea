@@ -202,3 +202,25 @@ public extension Task where Success == Never, Failure == Never {
         try? await Task.sleep(nanoseconds: UInt64(seconds * 1_000_000_000))
     }
 }
+
+
+struct ImageSystem : View {
+    
+    let systemIcon: String
+    let tint: Color
+    
+    var body: some View {
+        Image(
+            uiImage: UIImage(
+                systemName: systemIcon
+            )?.withTintColor(UIColor(tint), renderingMode: .alwaysOriginal) ?? UIImage()
+        ).resizable()
+            .renderingMode(.template)
+            .foregroundColor(tint)
+            .tint(tint)
+            .background(Color.clear)
+            .imageScale(.medium)
+            .aspectRatio(contentMode: .fill)
+            .scaledToFit()
+    }
+}

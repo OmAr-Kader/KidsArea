@@ -49,17 +49,27 @@ struct HomeView: View {
                     }.padding()
                 }
                 NavigationLink {
-                    CameraView()
+                    FreeFormDrawingView()
                 } label: {
-                    Image(systemName: "camera.fill")
-                        .font(.system(size: 24))
+                    ImageSystem(systemIcon: "scribble", tint: .black)
+                        .frame(size: 25)
                         .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
+                        .background(.red)
                         .clipShape(Circle())
                         .shadow(radius: 5)
                         .padding()
-                }.onEnd().onBottom()
+                }.onStart().onBottom()
+                NavigationLink {
+                    CameraView()
+                } label: {
+                    ImageSystem(systemIcon: "camera.fill", tint: .white)
+                        .frame(size: 25)
+                        .padding()
+                        .background(Color.blue)
+                        .clipShape(Circle())
+                        .shadow(radius: 5)
+                        .padding()
+                }.onBottomEnd()
             }.navigationTitle("Kid Learing")
         }.onAppeared {
             Task(priority: .background) {
@@ -71,6 +81,7 @@ struct HomeView: View {
                 }
             }
         }.accentColor(.gray)
+        
     }
     
     
