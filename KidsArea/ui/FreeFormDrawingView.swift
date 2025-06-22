@@ -8,7 +8,6 @@
 import SwiftUI
 import PencilKit
 
-
 // Based On => https://github.com/GetStream/stream-tutorial-projects/blob/main/visionOS/FreeFormDrawingView.swift
 
 struct FreeFormDrawingView: View {
