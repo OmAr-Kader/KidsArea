@@ -19,7 +19,7 @@ KidsArea brings together three core modules to foster creativity and discovery:
 * **Search & Highlight**: Instant text search with highlighted matches.
 * **Thumbnail Navigation**: Quick jump to specific pages with a scrollable thumbnail bar.
 
-#### ✏️ Freeform Drawing (Based On GetStream Drawing)
+#### ✏️ Freeform Drawing ([Based On GetStream Drawing](https://github.com/GetStream/stream-tutorial-projects/blob/main/visionOS/FreeFormDrawingView.swift))
 * **PencilKit Canvas**: UIKit-backed drawing view wrapped in SwiftUI.
 * **Multiple Tools**: Select pen, marker, highlighter, and eraser tools.
 * **Color Palette**: Choose from a vibrant set of colors.
