@@ -13,12 +13,12 @@ struct PDFItem: Identifiable, Equatable, Sendable {
     @MainActor
     static var temp: [PDFItem] {
         [
-           PDFItem(pdfId: "1", title: "Flashcard numbers", url: "https://learnenglishkids.britishcouncil.org/sites/kids/files/attachment/flashcards-numbers-1-12.pdf", rating: 5.0),
-           PDFItem(pdfId: "2", title: "Jack and the beanstalk", url: "https://learnenglishkids.britishcouncil.org/sites/kids/files/attachment/short-stories-jack-and-the-beanstalk-transcript.pdf", rating: 3.1),
-           PDFItem(pdfId: "3", title: "Story of Childrens Rights", url: "https://www.unicef.ie/app/uploads/2022/06/Social-Story-The-Story-of-Childrens-Rights-.pdf", rating: 4.6),
-           PDFItem(pdfId: "4", title: "Stories from Children", url: "https://www.wexfordcypsc.ie/sites/default/files/content/ebsa/EBSA-Resource-Pack-Section-9-EBSA-Stories-from-Children-and-Young-People-and-Parents-Care-Givers-(p88-95).pdf", rating: 4.6),
-           PDFItem(pdfId: "5", title: "Connect", url: "https://elearnningcontent.blob.core.windows.net/elearnningcontent/content/2022/kg/kg_1/term_1/Pdf-books/Connect_kg1_E_-SB_T1.pdf", rating: 4.6),
-           PDFItem(pdfId: "6", title: "Word list picture book", url: "https://www.cambridgeenglish.org/images/starters-word-list-picture-book.pdf", rating: 4.4),
+           PDFItem(pdfId: "1", title: "Flashcard numbers", url: "", rating: 5.0),
+           PDFItem(pdfId: "2", title: "Jack and the beanstalk", url: "", rating: 3.1),
+           PDFItem(pdfId: "3", title: "Story of Childrens Rights", url: "", rating: 4.6),
+           PDFItem(pdfId: "4", title: "Stories from Children", url: "", rating: 4.6),
+           PDFItem(pdfId: "5", title: "Connect", url: "", rating: 4.6),
+           PDFItem(pdfId: "6", title: "Word list picture book", url: "", rating: 4.4),
         ]
     }
     

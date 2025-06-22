@@ -10,7 +10,7 @@ import PDFKit
 
 
 struct PDFViewer: View {
-    let title: String // Local One
+    let title: String
     let url: URL? // Local One
     @StateObject private var viewModel = PDFViewModel()
     @State private var searchText: String = ""

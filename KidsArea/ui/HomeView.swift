@@ -83,12 +83,6 @@ struct HomeView: View {
         }.accentColor(.gray)
         
     }
-    
-    
-    func openCamera() {
-        // Camera logic here (custom camera view or image picker)
-        print("Camera tapped")
-    }
 }
 
 struct PDFItemView : View {
