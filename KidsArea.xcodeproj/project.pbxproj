@@ -6,13 +6,47 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DC7954652E078B8A00086270 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DC7954642E078B8A00086270 /* Kingfisher */; };
+		DC7954682E078B9E00086270 /* ShimmerEffect in Frameworks */ = {isa = PBXBuildFile; productRef = DC7954672E078B9E00086270 /* ShimmerEffect */; };
+		DC7954742E078BC100086270 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DC79546B2E078BC100086270 /* LICENSE */; };
+		DC7954752E078BC100086270 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DC79546C2E078BC100086270 /* README.md */; };
+		DC7954762E078BC100086270 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7954722E078BC100086270 /* 5.png */; };
+		DC7954772E078BC100086270 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79546F2E078BC100086270 /* 2.png */; };
+		DC7954782E078BC100086270 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DC79546D2E078BC100086270 /* .gitignore */; };
+		DC7954792E078BC100086270 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7954702E078BC100086270 /* 3.png */; };
+		DC79547A2E078BC100086270 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7954712E078BC100086270 /* 4.png */; };
+		DC79547B2E078BC100086270 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79546E2E078BC100086270 /* 1.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DC7954552E078B4F00086270 /* KidsArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC79546B2E078BC100086270 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DC79546C2E078BC100086270 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC79546D2E078BC100086270 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DC79546E2E078BC100086270 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DC79546F2E078BC100086270 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DC7954702E078BC100086270 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		DC7954712E078BC100086270 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		DC7954722E078BC100086270 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DC79546A2E078BA800086270 /* Exceptions for "KidsArea" folder in "KidsArea" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DC7954542E078B4F00086270 /* KidsArea */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DC7954572E078B4F00086270 /* KidsArea */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DC79546A2E078BA800086270 /* Exceptions for "KidsArea" folder in "KidsArea" target */,
+			);
 			path = KidsArea;
 			sourceTree = "<group>";
 		};
@@ -23,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7954652E078B8A00086270 /* Kingfisher in Frameworks */,
+				DC7954682E078B9E00086270 /* ShimmerEffect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +68,10 @@
 		DC79544C2E078B4F00086270 = {
 			isa = PBXGroup;
 			children = (
+				DC79546B2E078BC100086270 /* LICENSE */,
+				DC79546C2E078BC100086270 /* README.md */,
+				DC79546D2E078BC100086270 /* .gitignore */,
+				DC7954732E078BC100086270 /* Screenshots */,
 				DC7954572E078B4F00086270 /* KidsArea */,
 				DC7954562E078B4F00086270 /* Products */,
 			);
@@ -43,6 +83,18 @@
 				DC7954552E078B4F00086270 /* KidsArea.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7954732E078BC100086270 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				DC79546E2E078BC100086270 /* 1.png */,
+				DC79546F2E078BC100086270 /* 2.png */,
+				DC7954702E078BC100086270 /* 3.png */,
+				DC7954712E078BC100086270 /* 4.png */,
+				DC7954722E078BC100086270 /* 5.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +117,8 @@
 			);
 			name = KidsArea;
 			packageProductDependencies = (
+				DC7954642E078B8A00086270 /* Kingfisher */,
+				DC7954672E078B9E00086270 /* ShimmerEffect */,
 			);
 			productName = KidsArea;
 			productReference = DC7954552E078B4F00086270 /* KidsArea.app */;
@@ -94,6 +148,10 @@
 			);
 			mainGroup = DC79544C2E078B4F00086270;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DC7954632E078B8A00086270 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				DC7954662E078B9E00086270 /* XCRemoteSwiftPackageReference "Shimmer-SwiftUI-Modifier" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DC7954562E078B4F00086270 /* Products */;
 			projectDirPath = "";
@@ -109,6 +167,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7954742E078BC100086270 /* LICENSE in Resources */,
+				DC7954752E078BC100086270 /* README.md in Resources */,
+				DC7954762E078BC100086270 /* 5.png in Resources */,
+				DC7954772E078BC100086270 /* 2.png in Resources */,
+				DC7954782E078BC100086270 /* .gitignore in Resources */,
+				DC7954792E078BC100086270 /* 3.png in Resources */,
+				DC79547A2E078BC100086270 /* 4.png in Resources */,
+				DC79547B2E078BC100086270 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +322,15 @@
 				DEVELOPMENT_TEAM = 85F49QNXT3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KidsArea/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kids Area";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -268,6 +338,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramo.KidsArea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -284,11 +358,15 @@
 				DEVELOPMENT_TEAM = 85F49QNXT3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KidsArea/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kids Area";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +374,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramo.KidsArea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,6 +406,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC7954632E078B8A00086270 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+		DC7954662E078B9E00086270 /* XCRemoteSwiftPackageReference "Shimmer-SwiftUI-Modifier" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xYanis/Shimmer-SwiftUI-Modifier.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC7954642E078B8A00086270 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC7954632E078B8A00086270 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		DC7954672E078B9E00086270 /* ShimmerEffect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC7954662E078B9E00086270 /* XCRemoteSwiftPackageReference "Shimmer-SwiftUI-Modifier" */;
+			productName = ShimmerEffect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC79544D2E078B4F00086270 /* Project object */;
 }

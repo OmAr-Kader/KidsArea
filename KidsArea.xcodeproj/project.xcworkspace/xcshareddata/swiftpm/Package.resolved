@@ -1,0 +1,24 @@
+{
+  "originHash" : "e2124c730092031ad3672db3ae8b8a82a325ae2a7781c768cbc6632846a51983",
+  "pins" : [
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "7deda23bbdca612076c5c315003d8638a08ed0f1",
+        "version" : "8.3.2"
+      }
+    },
+    {
+      "identity" : "shimmer-swiftui-modifier",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/0xYanis/Shimmer-SwiftUI-Modifier.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "61d5254fe54bac7acc318b80cde4c0bfc2a2b5c4"
+      }
+    }
+  ],
+  "version" : 3
+}
