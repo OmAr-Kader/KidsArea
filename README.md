@@ -4,15 +4,6 @@ An educational iOS app designed for kids to explore and learn through interactiv
 
 -------------
 
-### Overview
-KidsArea brings together three core modules to foster creativity and discovery:
-
-1. **PDF Viewer**: Display educational PDFs with full-text search and highlighted results.
-2. **Freeform Drawing**: A flexible drawing canvas powered by PencilKit, featuring multiple pen styles, colors, undo/redo, eraser, and more.
-3. **Camera & Object Recognition**: Capture live scenes, detect objects using a CoreML model, and fetch descriptive information from Wikipedia.
-
--------------
-
 ### 🌟 Key Features
 #### 📚 PDF Viewer
 * **Full PDF Rendering**: Smooth page swiping and zooming via `PDFKit`.
