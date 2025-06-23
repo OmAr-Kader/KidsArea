@@ -62,8 +62,6 @@ An educational iOS app designed for kids to explore and learn through interactiv
 ### 📝 License
 Distributed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
 
-© 2025 OmAr-Kader. All rights reserved.
-
 -------------
 
 ### Screenshot
